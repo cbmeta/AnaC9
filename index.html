@@ -9,8 +9,8 @@
     n.queue=[];t=h.createElement(e);t.async=!0;
     t.src=v;s=h.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://2gcptest11220up.testanactz.cbinternal.com/sdk/3091509649498472920/events.js');
-    cbq('setHost', 'https://2gcptest11220up.testanactz.cbinternal.com/');
+    'https://34.54.249.215.nip.io/sdk/3091509649498472920/events.js');
+    cbq('setHost', 'https://34.54.249.215.nip.io/');
     cbq('init', '3091509649498472920');
     cbq('track', 'PageView');
   </script>
@@ -29,7 +29,7 @@
         <li><button id="purchaseButton" type="button">Purchase</button></li>
         <li><button id="subcribeButton" type="button">Subscribe</button></li>
         <li><button id="registrationButton" type="button">Registration</button></li>
-        <li><button id="unverifiedEvent2_button" type="button">unverifiedEvent</button></li>
+        <li><button id="unverifiedEvent_button" type="button">unverifiedEvent</button></li>
     </ul>
     </div>
 
@@ -48,7 +48,7 @@ document.getElementById('checkoutButton').addEventListener('click', function() {
 
 document.getElementById('purchaseButton').addEventListener('click', function() {
  cbq('track', 'Purchase', {
-    value: "5",
+    value: "fdsfkdf",
     currency: 'USD',
   });
 }, false);
@@ -61,7 +61,7 @@ document.getElementById('registrationButton').addEventListener('click', function
   cbq('track', 'CompleteRegistration');
 }, false);
     document.getElementById('unverifiedEvent_button').addEventListener('click', function()
-{cbq('track', 'unverifiedEvent2', {
+{cbq('track', 'unverifiedEvent', {
     value: 100,currency: 'USD',
     ssn:'11223333'  }) }, 
     false);
